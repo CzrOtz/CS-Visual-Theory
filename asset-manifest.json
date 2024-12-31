@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CS-Visual-Theory/static/css/main.6ba77c70.css",
+    "main.js": "/CS-Visual-Theory/static/js/main.556c834c.js",
+    "static/js/488.d4374d42.chunk.js": "/CS-Visual-Theory/static/js/488.d4374d42.chunk.js",
+    "index.html": "/CS-Visual-Theory/index.html",
+    "main.6ba77c70.css.map": "/CS-Visual-Theory/static/css/main.6ba77c70.css.map",
+    "main.556c834c.js.map": "/CS-Visual-Theory/static/js/main.556c834c.js.map",
+    "488.d4374d42.chunk.js.map": "/CS-Visual-Theory/static/js/488.d4374d42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ba77c70.css",
+    "static/js/main.556c834c.js"
+  ]
+}
