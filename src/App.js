@@ -46,6 +46,10 @@ function Project1() {
         <br />
         <br />
         &bull; {' '}
+        <span className='attention3'> Space </span> Adds a node.
+        <br />
+        <br />
+        &bull; {' '}
         <span className='attention3'> ESC </span> Makes your cursor visible.
         <br />
         <br />
