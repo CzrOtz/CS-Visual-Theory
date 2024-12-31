@@ -1,0 +1,154 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+/* Color Variables */
+:root {
+  --kinda-black: #222831;
+  --kinda-gray: #393E46;
+  --yellowish: #FFD369;
+  --offwhite: #EEEEEE;
+  --off-orange: #FFA07A;
+  --off-red: #FF6F61;
+  --box-shadow-color: rgba(0, 0, 0, 0.25); /* For consistency */
+  --border-color: rgba(255, 255, 255, 0.2); /* Subtle border */
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+  background-color: var(--kinda-black);
+  color: var(--offwhite);
+}
+
+/* App Container */
+.App {
+  background-color: var(--kinda-black);
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Main Container */
+#MainContainer {
+  background-color: var(--kinda-gray);
+  max-width: 1000px; /* Limit the width for professional alignment */
+  margin: 20px auto; /* Center horizontally */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px var(--box-shadow-color); /* Refined shadow for raised effect */
+  border: 1px solid var(--border-color);
+}
+
+/* Headings with refined background */
+h1, h2, h3 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  color: var(--kinda-black);
+  background-color: var(--yellowish);
+  padding: 5px 20px; /* Adjust padding for less width */
+  border-radius: 5px;
+  margin: 0 auto 1rem; /* Center the heading */
+  display: inline-block; /* Restrict background to text width */
+  
+}
+
+h4 {
+  font-weight: 900;
+}
+
+/* Paragraphs */
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 auto 1 rem;
+  
+}
+
+/* Iframe Styles */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px var(--box-shadow-color); /* Matches the container shadow for consistency */
+}
+
+/* Example Attention Box */
+.attention1 {
+  background-color: var(--off-red); /* Use --off-red for an alternate color */
+  color: var(--kinda-black);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.attention2 {
+  background-color: var(--off-orange); /* Use --off-red for an alternate color */
+  color: var(--kinda-black);
+  padding: 1px 3px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.attention3 {
+  background-color: var(--yellowish); /* Use --off-red for an alternate color */
+  color: var(--kinda-black);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+.code {
+  text-align: left;
+  background-color: #222831;
+  font-weight: 600;
+}
+
+.showInfo1 {
+  /* Match the site's fonts and colors */
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  background-color: var(--off-orange);
+  color: var(--kinda-black);
+
+  /* Sizing and spacing */
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+
+  /* A bit of flair */
+  cursor: pointer;
+  box-shadow: 0 2px 4px var(--box-shadow-color);
+  transition: background-color 0.2s ease;
+}
+
+.showInfo1:hover {
+  background-color: var(--off-red); /* Slightly darker shade of var(--yellowish) on hover */
+}
+
+.codeDescription {
+  background-color: black; /* Use --off-red for an alternate color */
+  color: var(--offwhite);
+  padding: 5px 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 0;
+  font-weight: 600;
+}
+.codeDescription2 {
+  background-color: var(--kinda-black); /* Use --off-red for an alternate color */
+  color: var(--offwhite);
+  padding: 1px 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 0;
+  font-weight: 600;
+}

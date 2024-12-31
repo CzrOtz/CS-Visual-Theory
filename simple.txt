@@ -1,0 +1,56 @@
+#include <iostream>
+using namespace std;
+
+
+struct Node {
+    int val; 
+    Node* next; // Pointer to the next node
+
+    // Constructor to initialize node with a value
+    Node(int value) : val(value), next(nullptr) {}
+};
+
+// Function to add a node to the linked list
+void addNode(int val) {
+    // Line 1
+    Node* newNode = new Node(val); // Create a new node
+    // Line 2
+    if (head == nullptr) { // If the list is empty
+        // Line 3
+        head = newNode; // Set the new node as the head
+    } else { // Line 4
+        Node* current = head; // Start at the head
+        // Line 5
+        while (current->next != nullptr) { // Traverse to the end of the list
+            // Line 6
+            current = current->next; // Move to the next node
+        }
+        // Line 7
+        current->next = newNode; // Set the new node as the next of the last node
+    }
+}
+
+// Head pointer for the linked list
+Node* head = nullptr;
+
+int main() {
+    // Line 8
+    addNode(10); // Add a node with value 10
+    // Line 9
+    addNode(20); // Add a node with value 20
+    // Line 10
+    addNode(30); // Add a node with value 30
+
+    // Line 11
+    Node* current = head; // Start at the head to traverse the list
+    // Line 12
+    while (current != nullptr) {
+        // Line 13
+        cout << current->val << " "; // Print the value of the current node
+        current = current->next; // Move to the next node
+    }
+    // Line 14
+    cout << endl;
+
+    return 0;
+}

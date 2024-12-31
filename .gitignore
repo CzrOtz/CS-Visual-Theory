@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Unity-specific
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/MemoryCaptures/
+/Builds/
+/UserSettings/
+/ProjectSettings/UnityConnectSettings.asset
+/**/*.csproj
+/**/*.unityproj
+/**/*.sln
+/**/*.suo
+/**/*.tmp
+/**/*.user
+/**/*.userprefs
+/**/*.pidb
+/**/*.booproj
+/**/*.svd
+/[Aa]ssets/Plugins/*.dll.meta
+
+# Unity WebGL build files
+/Builds/WebGL/Build/
+/Builds/WebGL/StreamingAssets/
+/Builds/WebGL/TemplateData/
+/Builds/WebGL/Release/
+
+# VSCode specific
+.vscode/
+
+# Ignore IDE-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Ignore build logs
+*.log
+
